@@ -1,27 +1,30 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('registroForm');
-    const mensagemDiv = document.getElementById('mensagem');
+const startButton = document.getElementById('start-button');
+const formContainer = document.getElementById('form-container');
+const loginButton = document.getElementById('login-button');
+const signupButton = document.getElementById('signup-button');
 
-    form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Impede o envio do formulário padrão
+startButton.addEventListener('click', () => {
+  startButton.style.display = 'none';
+  formContainer.style.display = 'block';
+  loginButton.style.display = 'block';
+  signupButton.style.display = 'block';
+});
 
-        const nomeInput = document.getElementById('nome');
-        const nome = nomeInput.value.trim(); // Obtém o valor do input e remove espaços em branco no início e no final
+loginButton.addEventListener('click', () => {
+  signupButton.style.display = 'none';
+  loginForm.style.display = 'block';
+});
 
-        if (nome === '') {
-            exibirMensagem('Por favor, insira um nome.', 'error');
-        } else {
-            // Aqui você pode enviar o nome para o backend, armazená-lo em um banco de dados, etc.
-            exibirMensagem(`Nome registrado com sucesso: ${nome}`, 'success');
-            nomeInput.value = ''; // Limpa o campo de entrada após o registro
-        }
-    });
+signupButton.addEventListener('click', () => {
+  loginButton.style.display = 'none';
+  loginForm.style.display = 'none';
+  signupForm.style.display = 'block';
+});
 
-    function exibirMensagem(mensagem, tipo) {
-        mensagemDiv.textContent = mensagem;
-        mensagemDiv.className = tipo; // Define a classe CSS com base no tipo de mensagem (error ou success)
-        setTimeout(() => {
-            mensagemDiv.textContent = ''; // Limpa a mensagem após alguns segundos
-        }, 3000); // 3000 milissegundos = 3 segundos
-    }
+loginButton.addEventListener('click', () => {
+    window.location.href = './login.html';
+});
+
+signupButton.addEventListener('click', () => {
+    window.location.href = './signup.html';
 });

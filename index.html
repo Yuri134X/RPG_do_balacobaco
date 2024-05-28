@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/sytles.css">
-    <title>Jogo de RPG - Home</title>
+    <title>Ziperium</title>
 </head>
 <body>
-    <div class="container">
+    <div class="menu">
         <div class="login">
-    <h1>Bem vindo ao jogo de RPG</h1>
-    <h2>Entre com o nome do seu personagem!</h2>
-    <form id="registroForm">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" class="input">
-        <button class="play_btn" type="submit">Registrar</button>
-    </form>
+    <h1>Bem vindo a Ziperium </h1>
 
-    <div id="mensagem"></div>
-</div>
-</div>
+    <div id="button-container">
+        <button id="start-button">Iniciar</button>
+        <div id="form-container" style="display: none;">
+          <button id="login-button">Login</button>
+          <button id="signup-button">Cadastro</button>
+        </div>
+      </div>
 
     <script src="./script/script.js"></script>
 </body>
