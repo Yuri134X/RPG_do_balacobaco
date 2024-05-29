@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <title>Ziperium</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="login">
+    <h2>CADASTRO</h2>
+
+    <form id="form">
+        <ul>
+            <li>
+                <label for="name">Nome:</label>
+                <br>
+                <input type="text" id="name" required>
+            </li>
+            <br>
+            <li>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" required>
+            </li>
+            <br>
+            <li>
+                <label for="character-name">Nome do personagem:</label>
+                <br>
+                <input type="text" id="character-name" required>
+            </li>
+            <br>
+            <li>
+                <label for="password">Senha:</label>
+                <br>
+                <input type="password" id="password" required>
+            </li>
+            <br>
+            <li>
+                <label for="confirm-password">Confirmar senha:</label>
+                <br>
+                <input type="password" id="confirm-password" required>
+            </li>
+            <br>
+            <li>
+                <p id="error-message"></p>
+            </li>
+            <li>
+                <button type="submit">Enviar</button>
+            </li>
+        </ul>   
+    </form>
+    
+
+    <script src="./script/cadastro.js"></script>
+</body>
+</html>
