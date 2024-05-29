@@ -25,6 +25,13 @@ body {
 
 }
 
-.container img{
-    width: 60%;
+.login{
+    max-width: 600px;
+    margin: 6px auto;
+    padding: 60px 70px 60px 70px;
+    border: 1px solid #807f7f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #eeeded;
+    
 }
