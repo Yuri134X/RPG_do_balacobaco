@@ -1,77 +1,90 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url("../image/fundo_rpg.jpg") ; 
+    box-sizing: border-box;
+}
+
+body{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
+    background-image:url("../image/fundo_rpg.jpg") ; 
+    display: flex;
     align-items: center;
-    text-align: center;
-
+    min-height: 100vh;
+    justify-content: center;
 }
 
-form {
-    text-align: center;
+.container{
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 70px 40px;
 }
-label {
+
+.container h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+label{
+    padding-left: 15px;
+    
+}
+
+#login-form input{
     display: block;
-    margin-bottom: 0.5em;
 }
-input[type="text"], input[type="email"], input[type="password"] {
-    width: 20em;
-    padding: 0.5em;
-    font-size: 1em;
-    border-radius: 0.25em;
-    border: 1px solid #ccc;
-}
+
+
 #error-message {
     color: red;
     margin-top: 1em;
     display: none;
 }
-button {
-    font-size: 1em;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 0.25em;
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    transition: background-color 0.3s ease;
-}
-button:hover {
-    background-color: #45a049;
-}
 
-.menu{
+
+
+.container .btn{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+    height: 45px;
+    background-color:#34a002 ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
 }
 
-.login{
-    max-width: 600px;
-    margin: auto;
-    padding: 60px 70px 60px 70px;
-    padding-left: auto;
-    border: 1px solid #807f7f;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #eeeded;
+.btn:hover{
+    box-shadow: 0 0 10px #154101;
+}
+
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;  
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #5c5b5b;
+    font-weight:400;
     
 }
-
-li{
-    list-style: none;
-    text-transform: capitalize;
-    text-align: center;
-}
-
