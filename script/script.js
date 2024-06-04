@@ -2,6 +2,7 @@ const startButton = document.getElementById('start-button');
 const formContainer = document.getElementById('form-container');
 const loginButton = document.getElementById('login-button');
 const signupButton = document.getElementById('signup-button');
+const noSignupButton = document.getElementById('no-signup-button');
 
 startButton.addEventListener('click', () => {
   startButton.style.display = 'none';
@@ -27,4 +28,8 @@ loginButton.addEventListener('click', () => {
 
 signupButton.addEventListener('click', () => {
     window.location.href = './signup.html';
+});
+
+noSignupButton.addEventListener('click', () => {
+  window.location.href = './game.html';
 });
