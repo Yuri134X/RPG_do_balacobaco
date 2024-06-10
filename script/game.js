@@ -14,5 +14,5 @@ continuarButton.addEventListener('click', function() {
 });
 
 iniciarJogoButton.addEventListener('click', function() {
-  window.location.href = 'jogo.html';
+  window.location.href = 'capitulo1.html';
 });
