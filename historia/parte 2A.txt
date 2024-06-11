@@ -1,15 +1,13 @@
 Capítulo 2A: Estudando o Tomo Arcano
-
-José está determinado a buscar vingança contra Lunaro. Ele deve escolher como se preparar para essa jornada perigosa.
+José está na floresta, absorvendo o poder do tomo arcano. Ele sente a magia sombria começando a tomar conta de sua alma.
 
 Escolhas:
-Estudar o Tomo Arcano na Floresta - (Ir para Capítulo 2A)
-Descrição: José encontra um antigo tomo de magia sombria em uma floresta próxima. Ele acredita que o poder sombrio nele contido pode ser a chave para derrotar Lunaro.
+Aprofundar-se ainda mais nas artes sombrias - (Ir para Capítulo 3A)
 
+Descrição: José decide explorar todo o potencial da magia sombria, apesar dos riscos para sua alma.
+Buscar equilíbrio, combinando a magia sombria com sua própria habilidade - (Ir para Capítulo 3B)
 
-Procurar a Ajuda de Elazar na Montanha - (Ir para Capítulo 2B)
-Descrição: José decide buscar a orientação de Elazar, um velho amigo e mentor que vive nas montanhas. Elazar pode ajudá-lo a fortalecer suas habilidades arcanas de forma ética.
+Descrição: José tenta encontrar um equilíbrio entre a magia sombria e suas próprias habilidades naturais para evitar ser consumido por ela.
+Parar de estudar o tomo e procurar outros meios de confrontar Lunaro - (Ir para Capítulo 2C)
 
-
-Formar Alianças com Criaturas Mágicas na Floresta - (Ir para Capítulo 2C)
-Descrição: José resolve buscar aliados entre as criaturas mágicas das florestas de Sombra Verde. Ele espera que algumas estejam dispostas a ajudá-lo em sua busca por vingança.
+Descrição: José percebe os perigos da magia sombria e decide procurar ajuda com as criaturas mágicas na floresta.
