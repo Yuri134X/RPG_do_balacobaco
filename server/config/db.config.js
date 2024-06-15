@@ -1,14 +1,18 @@
-module.exports = {
-    HOST: "localhost",
-    USER: "postgres",
-    PASSWORD: "123",
-    DB: "RPGdb",
-    dialect: "postgres",
 
-    pool: {
-        max: 5,
-        min: 0,
-        acquire: 30000,
-        idle: 10000
+const { Sequelize } = require('sequelize');
+
+const sequelize = new Sequelize('my_registration_db', 'username', 'password', {
+    host: 'localhost',
+    dialect: 'mysql'
+});
+
+const connectDB = async () => {
+    try {
+        await sequelize.authenticate();
+        console.log('MySQL connected');
+    } catch (error) {
+        console.error('Unable to connect to the database:', error);
     }
-}
+};
+
+module.exports = { sequelize, connectDB };

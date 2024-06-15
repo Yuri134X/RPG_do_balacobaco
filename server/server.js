@@ -1,21 +1,23 @@
+// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
+const { connectDB } = require('./config/db.config');
+const userRoutes = require('./routes/route');
+
 const app = express();
 
+// Conectar ao banco de dados
+connectDB();
+
+// Middleware
 app.use(bodyParser.json());
+app.use(express.static('public'));
 
-const users = [
-    { id: 1, name: 'John Doe', email: 'john@example.com', password: 'password123' },
-    { id: 2, name: 'Jane Doe', email: 'jane@example.com', password: 'password456' }
-];
+// Rotas
+app.use('/api/users', userRoutes);
 
-app.post('/api/users/register', (req, res) => {
-    const { name, email, password } = req.body;
-    const id = users.length + 1;
-    users.push({ id, name, email, password });
-    res.json({ success: true, message: 'User registered successfully' });
-});
+const PORT = process.env.PORT || 8080;
 
-app.listen(8080, () => {
-    console.log('API listening on port 8080');
+app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
 });

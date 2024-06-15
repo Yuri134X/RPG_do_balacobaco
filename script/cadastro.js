@@ -1,4 +1,4 @@
-document.getElementById('register-form').addEventListener('submit', async function (e) {
+document.getElementById('register-form').addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const name = document.getElementById('name').value;
@@ -22,10 +22,5 @@ document.getElementById('register-form').addEventListener('submit', async functi
     });
 
     const result = await response.json();
-
-    if (response.ok) {
-        alert('Usuário cadastrado com sucesso!');
-    } else {
-        alert('Erro: ' + result.error);
-    }
+    document.getElementById('message').innerText = result.message;
 });

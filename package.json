@@ -2,13 +2,16 @@
   "name": "my-game-project",
   "version": "1.0.0",
   "description": "A game project with an introduction",
-  "main": "app.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server/server.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.37.3"
   },
   "author": "",
   "license": "ISC"
