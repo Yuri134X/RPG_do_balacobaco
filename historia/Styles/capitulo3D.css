@@ -50,7 +50,7 @@ button:hover{
 .column{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px ;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 50px;   
 }
 .content h1{
