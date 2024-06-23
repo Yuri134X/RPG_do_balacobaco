@@ -22,7 +22,7 @@ body {
     
     }
 .content{
-    height: 500px;
+    height: 60%;
     max-width: 800px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
@@ -34,7 +34,7 @@ body {
 
 button{
     border: solid 1px;
-    height: 300px;
+    height: 160%;
     background-color: transparent;
     justify-content: space-around;
     margin: 8px;
@@ -48,8 +48,7 @@ button:hover{
 }
 
 .column{
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px ;
+    display: grid;  
     grid-template-columns: repeat(3, 1fr);
     padding-top: 50px;   
 }
@@ -60,4 +59,23 @@ button:hover{
 }
 h2{
     font-size: 1rem;
+}
+
+@media (max-width:740px){
+    .content{
+        margin: 2%;
+        padding:70px 70px 30% 70px;
+    }
+    .column{
+        display: block;
+        padding-top: 20px; 
+    }
+    button{
+        height: 130px; 
+        margin: 3px;
+    }
+
+    .content h1{
+    font-size: 1.5rem;
+    }
 }

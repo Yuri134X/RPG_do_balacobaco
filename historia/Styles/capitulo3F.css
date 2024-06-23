@@ -61,3 +61,23 @@ button:hover{
 h2{
     font-size: 1rem;
 }
+
+@media (max-width:740px){
+    .content{
+        margin: 3%;
+        padding:70px 70px 5% 70px;
+    }
+    .column{
+        display: block;
+        padding-top: 15px; 
+    }
+    button{
+        height: 140px; 
+        margin: 10px;
+    }
+
+    .content h1{
+    font-size: 1.5rem;
+    }
+
+}
