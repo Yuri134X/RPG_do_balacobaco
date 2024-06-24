@@ -12,30 +12,25 @@ body {
     justify-content: center;
     overflow: hidden;
 }
-
 .conteudo{
     max-width: 520px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 25px 25px;
-    
 }
-.typing-text {
-    
+.typing-text { 
     padding: 20px;
     text-align: center;
-  } 
+} 
  .typing-text p {
-    margin-bottom: 20px;
     font-size: 18px;
     line-height: 1.5;
     opacity: 0;
     transition: opacity 0.5s;
-  }
+}
  .typing-text p.active {
     opacity: 1;
-  }
-
+}
 
 .conteudo h1{
     font-size: 2rem;
@@ -46,7 +41,6 @@ body {
 #button-container{
     align-items: center;
     text-align: center;
-    margin-top: 15%;
 }
 
 .conteudo button{
@@ -62,6 +56,7 @@ body {
     color: #ffffff;
     font-weight: 700;
     margin: 10px;
+    margin-top: 5%;
 }
 
 button:hover{
