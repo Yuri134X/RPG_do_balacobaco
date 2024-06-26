@@ -1,9 +1,6 @@
 document.getElementById("path-1").addEventListener("click", function() {
-    window.location.href = "capitulo3E.html";
+    window.location.href = "final1.html";
 });
 document.getElementById("path-2").addEventListener("click", function() {
-    window.location.href = "capitulo3F.html";
-});
-document.getElementById("path-3").addEventListener("click", function() {
-    window.location.href = "capitulo3G.html";
+    window.location.href = "finalSecreto.html";
 });
