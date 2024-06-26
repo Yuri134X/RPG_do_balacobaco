@@ -1,6 +1,6 @@
 let paragraphs = document.querySelectorAll('.typing-text p');
-let continuarButton = document.getElementById('continuar');
-let iniciarJogoButton = document.getElementById('iniciar-jogo');
+let continuarButton = document.getElementById('continue');
+let iniciarJogoButton = document.getElementById('start');
 let currentParagraph = 0;
 
 continuarButton.addEventListener('click', function() {
