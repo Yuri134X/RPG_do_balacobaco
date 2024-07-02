@@ -8,11 +8,11 @@ const texto = `${nomeSalvo} testemunhou a crueldade de Lunaro com seus próprios
 textoComNome.textContent = texto;
 
 document.getElementById('botao').addEventListener('click', function() {
-  var nomeImpresso = document.getElementById('texto1');
+  var texto1 = document.getElementById('nome-impresso');
   var texto2 = document.getElementById('texto2');
   var texto3 = document.getElementById('texto3');
   
-  nomeImpresso.style.display = 'none';
+  texto1.style.display = 'none';
   texto2.style.display = 'block';
   setTimeout(function() {
     texto2.style.display = 'none';
