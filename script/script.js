@@ -33,3 +33,8 @@ signupButton.addEventListener('click', () => {
 noSignupButton.addEventListener('click', () => {
   window.location.href = './game.html';
 });
+
+function playMusic() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
