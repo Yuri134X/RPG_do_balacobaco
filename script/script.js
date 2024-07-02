@@ -33,7 +33,6 @@ form.addEventListener('submit', (e) => {
 //loginButton.addEventListener('click', () => {
 //    window.location.href = './login.html';
 //});
-
 //signupButton.addEventListener('click', () => {
 //    window.location.href = './signup.html';
 //});
@@ -41,3 +40,13 @@ form.addEventListener('submit', (e) => {
 //noSignupButton.addEventListener('click', () => {
 //  window.location.href = './game.html';
 //});
+
+noSignupButton.addEventListener('click', () => {
+  window.location.href = './game.html';
+});
+
+function playMusic() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
+
