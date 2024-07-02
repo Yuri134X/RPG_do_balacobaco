@@ -1,18 +1,16 @@
-let paragraphs = document.querySelectorAll('.typing-text p');
-let continuarButton = document.getElementById('continue');
-let iniciarJogoButton = document.getElementById('start');
-let currentParagraph = 0;
+document.getElementById('botao').addEventListener('click', function() {
+  var texto1 = document.getElementById('texto1');
+  var texto2 = document.getElementById('texto2');
+  var texto3 = document.getElementById('texto3');
+  
+  texto1.style.display = 'none';
+  texto2.style.display = 'block';
+  setTimeout(function() {
+    texto2.style.display = 'none';
+    texto3.style.display = 'block';
+  }, 5000);
 
-continuarButton.addEventListener('click', function() {
-  paragraphs[currentParagraph].classList.remove('active');
-  currentParagraph++;
-  paragraphs[currentParagraph].classList.add('active');
-  if (currentParagraph === paragraphs.length - 1) {
-    continuarButton.style.display = 'none';
-    iniciarJogoButton.style.display = 'block';
-  }
-});
-
-iniciarJogoButton.addEventListener('click', function() {
-  window.location.href = './historia/capitulo1.html';
+  setTimeout(function() {
+    window.location.href = './historia/capitulo1.html';
+  }, 15000);
 });

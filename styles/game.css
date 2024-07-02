@@ -25,11 +25,7 @@ body {
  .typing-text p {
     font-size: 18px;
     line-height: 1.5;
-    opacity: 0;
     transition: opacity 0.5s;
-}
- .typing-text p.active {
-    opacity: 1;
 }
 
 .content h1{
