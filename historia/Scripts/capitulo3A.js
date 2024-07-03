@@ -1,16 +1,9 @@
 const resume = document.getElementById('resume');
-const route1 = document.getElementById('route1');
-const route2 = document.getElementById('route2');
-const route3 = document.getElementById('route3');
-
 const nomeSalvo = localStorage.getItem('nome');
 
-resume.textContent = `${nomeSalvo} se aprofunda nas artes sombrias, ganhando um poder tremendo, mas correndo o risco de ser consumido pela escuridão.`;
-
-route1.textContent = `${nomeSalvo} procura os elfos que habitam as profundezas da floresta, conhecidos por sua sabedoria e habilidades mágicas.`
-
-route2.textContent = `${nomeSalvo} combina seu poder sombrio com astúcia, planejando se unir a Lunaro.`
-
+resume.innerHTML = `${nomeSalvo}, sentindo o irresistível chamado das trevas, resolve mergulhar ainda mais profundamente nas artes sombrias reveladas pelo tomo arcano. Cada feitiço que decifra o atrai mais para um abismo de poder e escuridão. As runas nas páginas amareladas começam a brilhar com uma luz etérea, revelando segredos ocultos há milênios. Ele invoca espíritos antigos, firmando pactos proibidos, e sua alma se entrelaça cada vez mais com as forças negras que o tomo contém.
+<p></p>
+Enquanto a magia negra consome sua essência, José se torna uma figura de temível poder, seu coração endurecido pela escuridão que agora domina sua vontade. No entanto, ele percebe que cada novo feitiço e pacto o afasta de sua humanidade, moldando-o em algo além do mortal. Com o destino de Lunaro cada vez mais ao seu alcance, José deve ponderar se continuará a se submeter ao irresistível poder sombrio ou se buscará um fio de luz em meio às trevas que o consomem, pois o caminho que escolhe agora definirá não apenas seu destino, mas o de todos ao seu redor.`;
 
 document.getElementById("path-1").addEventListener("click", function() {
     window.location.href = "final1.html";
