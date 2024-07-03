@@ -1,17 +1,12 @@
 const resume = document.getElementById('resume');
-const route1 = document.getElementById('route1');
-const route2 = document.getElementById('route2');
-const route3 = document.getElementById('route3');
+
 
 const nomeSalvo = localStorage.getItem('nome');
 
-resume.textContent = `${nomeSalvo} está determinado a buscar vingança contra Lunaro. Ele deve escolher como se preparar para essa jornada perigosa.`;
+resume.textContent = `${nomeSalvo} ardendo com a chama da vingança, jurou retribuir a desonra imposta por Lunaro. Em seu coração ferido, a decisão de buscar justiça se enraizou, e agora ele deve ponderar cuidadosamente sobre como se preparar para a iminente e perigosa jornada.`
+` Entre as sombras da traição e os murmúrios de antigas alianças, ${nomeSalvo} enfrenta um dilema: qual caminho trilhará para reunir a força necessária e enfrentar seu pérfido inimigo? As opções diante dele são muitas, cada uma com seus próprios perigos e promessas, exigindo sabedoria e coragem para escolher o curso que o conduzirá ao seu destino de vingança.`;
 
-route1.textContent = `${nomeSalvo} decide ir para uma flortesta proxima em busca de magia sombria. Ele acredita que o poder sombrio pode ser a chave para derrotar Lunaro.`
 
-route2.textContent = `${nomeSalvo} decide buscar a orientação de Elazar, um velho amigo e mentor que vive nas montanhas. Elazar pode ajudá-lo a fortalecer suas habilidades arcanas de forma ética.`
-
-route3.textContent = `${nomeSalvo} resolve buscar aliados entre as criaturas mágicas das florestas de Sombra Verde. Ele espera que alguma esteja disposta a ajudá-lo em sua busca por vingança.`
 
 document.getElementById("path-1").addEventListener("click", function() {
     window.location.href = "capitulo2A.html";
