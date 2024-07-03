@@ -1,17 +1,8 @@
 const resume = document.getElementById('resume');
-const route1 = document.getElementById('route1');
-const route2 = document.getElementById('route2');
-const route3 = document.getElementById('route3');
-
 const nomeSalvo = localStorage.getItem('nome');
 
-resume.textContent = `${nomeSalvo} adentra as florestas no arredores de Sombra Verde em busca de criaturas mágicas que possam se juntar a ele.`;
-
-route1.textContent = `${nomeSalvo} procura os elfos que habitam as profundezas da floresta, conhecidos por sua sabedoria e habilidades mágicas.`
-
-route2.textContent = `${nomeSalvo} tenta fazer um pacto com os espíritos da floresta, seres antigos e poderosos que podem fornecer-lhe apoio mágico.`
-
-route3.textContent = `${nomeSalvo} se conecta com os animais mágicos da floresta, esperando que eles ofereçam sua força e habilidades únicas em sua jornada.`
+resume.innerText = `${nomeSalvo}, decidido a reforçar suas fileiras, resolve buscar aliados entre as enigmáticas criaturas mágicas das florestas de Sombra Verde. Nestas profundezas encantadas, ele espera encontrar seres dispostos a unir forças em sua ardente busca por vingança. 
+À medida que adentra o reino verdejante, repleto de antigos segredos e feitiços viventes, ele sente a presença vigilante dos habitantes místicos ao seu redor. Em meio a este domínio de magia e mistério, José deve agora decidir como ganhar a confiança dessas entidades, sabendo que sua causa e a destruição de Lunaro dependem da próxima aliança que forjar.`;
 
 document.getElementById("path-1").addEventListener("click", function() {
     window.location.href = "capitulo3E.html";
