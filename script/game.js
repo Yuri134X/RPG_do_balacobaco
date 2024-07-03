@@ -3,6 +3,8 @@ const texto1 = document.getElementById('texto1');
 const texto2 = document.getElementById('texto2');
 const texto3 = document.getElementById('texto3');
 const botao = document.getElementById('botao');
+const botao2 = document.getElementById('botao2');
+const botao3= document.getElementById('botao3');
 const startButton = document.getElementById('start');
 
 const nomeSalvo = localStorage.getItem('nome');
@@ -18,13 +20,18 @@ ${nomeSalvo} viu sua esposa e seus filhos mortos. A dor e a raiva queimaram em s
 botao.addEventListener('click', function() {
   texto1.style.display = 'none';
   texto2.style.display = 'block';
+  botao2.style.display = 'block';
   
-  setTimeout(function() {
+})
+
+  botao2.addEventListener('click', function()  {
     texto2.style.display = 'none';
     texto3.style.display = 'block';
-  }, 5000);
-  
-  setTimeout(function() {
-    window.location.href = './historia/capitulo1.html';
-  }, 15000);
+    botao2.style.display = 'none';
+    botao3.style.display = 'block';
 });
+
+botao3.addEventListener('click', function() {
+  window.location.href = './historia/capitulo1.html';
+
+})

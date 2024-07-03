@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image:url("../image/floresta\ fundo\ 1.gif") ; 
+    background-image:url("../image/começo.gif") ; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -15,7 +15,6 @@ body {
 
 .login{
     width: 420px;
-    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 70px 40px;
 }
@@ -44,7 +43,7 @@ body {
     font-size: 16px;
     color: #ffffff;
     font-weight: 700;
-    margin: 2px;
+    margin: 5%;
 }
 
 button:hover{
@@ -68,6 +67,7 @@ button:hover{
     border: 1px solid #807f7f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #eeeded;
+    background-color: #ffffffe4;
     
 }
+

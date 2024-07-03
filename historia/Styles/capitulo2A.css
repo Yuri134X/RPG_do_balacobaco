@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image:url("../../image/fundo_rpg.jpg") ; 
+    background-image:url("../../image/forest.gif") ; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -29,7 +29,7 @@ body {
     border: 1px solid #807f7f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #eeeded;
+    background-color: #fffffff1;
  }
 
 button{
