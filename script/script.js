@@ -4,12 +4,17 @@
 //const signupButton = document.getElementById('signup-button');
 //const noSignupButton = document.getElementById('no-signup-button');
 const form = document.getElementById('form-nome');
+const nomeInput = document.getElementById('nome');
 
 form.addEventListener('submit', (e) => {
- e.preventDefault();
- const nome = document.getElementById('nome').value;
- localStorage.setItem('nome', nome);
- window.location.href = './game.html';
+  e.preventDefault();
+  const nome = nomeInput.value.trim(); 
+  if (nome !== '') { 
+    localStorage.setItem('nome', nome);
+    window.location.href = './game.html';
+  } else {
+    alert('Por favor, digite seu nome de personagem.'); 
+  }
 });
 
 //startButton.addEventListener('click', () => {
