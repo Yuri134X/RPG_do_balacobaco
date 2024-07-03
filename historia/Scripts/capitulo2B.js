@@ -11,7 +11,7 @@ route1.textContent = `${nomeSalvo} dedica-se completamente ao treinamento intens
 
 route2.textContent = `${nomeSalvo} opta por explorar formas de magia menos convencionais, buscando um método inovador para enfrentar Lunaro.`
 
-route3.textContent = `Deixar o treinamento de Elazar e formar alianças com criaturas mágicas`
+route3.textContent = `${nomeSalvo} decide que precisa de mais do que apenas treino arcano e parte para buscar aliados entre as criaturas mágicas.`
 
 document.getElementById("path-1").addEventListener("click", function() {
     window.location.href = "capitulo3C.html";
