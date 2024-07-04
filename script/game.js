@@ -11,9 +11,9 @@ const nomeSalvo = localStorage.getItem('nome');
 
 texto1.innerHTML = `${nomeSalvo}, um jovem mago, vivia em uma vila pacífica chamada Sombra Verde. Seus dias eram preenchidos com o estudo das artes arcanas e a cura de seus vizinhos com ervas mágicas.`;
 
-texto2.textContent = `Um dia, porém, a tranquilidade de Sombra Verde foi quebrada. Um mago perverso chamado Lunaro, um feiticeiro habilidoso, mas sua magia era escura e cruel.`;
+texto2.innerHTML = `Um dia, porém, a tranquilidade de Sombra Verde foi quebrada. Um mago perverso chamado Lunaro, um feiticeiro habilidoso, mas sua magia era escura e cruel.`;
 
-texto3.textContent = `${nomeSalvo} testemunhou a crueldade de Lunaro com seus próprios olhos. O mago perverso lançou uma maldição sobre a família de ${nomeSalvo}. 
+texto3.innerHTML = `${nomeSalvo} testemunhou a crueldade de Lunaro com seus próprios olhos. O mago perverso lançou uma maldição sobre a família de ${nomeSalvo}. 
 <p></p>
 ${nomeSalvo} viu sua esposa e seus filhos mortos. A dor e a raiva queimaram em seu coração, fazendo ele partir em uma jornada perigosa e cheia de escolhas.`;
 
