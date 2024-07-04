@@ -34,12 +34,16 @@ body {
 
 button{
     border: solid 1px;
-    height: 160%;
+    height: 90%;
     background-color: transparent;
     justify-content: space-around;
-    margin: 8px;
+    margin: 10%;
     cursor: pointer;
     border-radius: 10px;
+}
+
+p{
+    font-size: 1.1rem;
 }
 
 button:hover{
@@ -68,13 +72,17 @@ h2{
     }
     .column{
         display: block;
-        padding-top: 20px; 
+        
     }
     button{
-        height: 130px; 
-        margin: 3px;
+        height: 25%; 
+        margin: 1%;
+        
     }
+    h2{
+    font-size: 0.9rem;
 
+    }
     .content h1{
     font-size: 1.5rem;
     }
