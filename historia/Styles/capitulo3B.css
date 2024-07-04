@@ -21,8 +21,8 @@ body {
     text-align: center;
     
     }
-.content{
-    height: 50%;
+.content{ 
+    height: fit-content;
     max-width: 800px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;

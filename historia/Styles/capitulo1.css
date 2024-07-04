@@ -22,7 +22,7 @@ body {
     
     }
 .content{
-    height: 50%;
+    height: fit-content;
     max-width: 600px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
