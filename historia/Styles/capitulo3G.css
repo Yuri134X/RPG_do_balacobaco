@@ -21,11 +21,8 @@ body {
     text-align: center;
     }
 
-p{
-    font-size: 1.1rem;
-}
 .content{
-    height: 75%;
+    height: 65%;
     max-width: 800px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
@@ -67,20 +64,22 @@ h2{
 
 @media (max-width:740px){
     .content{
-        margin: 3%;
-        padding:70px 70px 10% 70px;
+        height: 115%;
+        margin-top: 30%;
     }
     .column{
         display: block;
-        padding-top: 20px; 
     }
     button{
-        height: 140px; 
-        margin: 10px;
+        width: 100%;
+        margin: 2%;
+    }
+    h2{
+    font-size: 1rem;
     }
 
     .content h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     }
 
 }

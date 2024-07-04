@@ -13,9 +13,6 @@ body {
     
 }
 
-p{
-    font-size: 1.1rem;
-}
 .game{
     width: 100%;
     height: 100vh;
@@ -75,4 +72,5 @@ p{
 img{
     width: 90%;
     height: 90%;
+    margin-left: 7%;
 }

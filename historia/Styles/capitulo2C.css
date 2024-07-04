@@ -22,7 +22,7 @@ body {
     
     }
 .content{
-    height: 60%;
+    height:45%;
     max-width: 600px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
@@ -50,7 +50,7 @@ button:hover{
 .column{
     display: grid;  
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 50px;   
+    padding-top: 20px;   
 }
 .content h1{
     font-size: 2rem;
@@ -58,25 +58,23 @@ button:hover{
     font-weight: 900;
 }
 
-p{
-    font-size: 1.1rem;
-}
 h2{
     font-size: 1rem;
 }
 
 @media (max-width:740px){
     .content{
-        margin: 2%;
-        padding:70px 70px 30% 70px;
+        padding: 2%;
+        height: 65%;
+        
     }
     .column{
         display: block;
         padding-top: 20px; 
     }
     button{
-        height: 130px; 
-        margin: 3px;
+        width: 70%;
+        margin: 2%;
     }
 
     .content h1{

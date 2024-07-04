@@ -22,7 +22,7 @@ body {
     
     }
 .content{
-    height: 500px;
+    height: 55%;
     max-width: 800px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
@@ -40,10 +40,6 @@ button{
     margin: 8px;
     cursor: pointer;
     border-radius: 10px;
-}
-
-p{
-    font-size: 1.1rem;
 }
 
 button:hover{
@@ -68,16 +64,16 @@ h2{
 
 @media (max-width:740px){
     .content{
-        margin: 3%;
-        padding:70px 70px 10% 70px;
+        padding: 2%;
+        height: 78%;
     }
     .column{
         display: block;
         padding-top: 20px; 
     }
     button{
-        height: 130px; 
-        margin: 10px;
+        width: 80%;
+        margin: 2%;
     }
 
     .content h1{
