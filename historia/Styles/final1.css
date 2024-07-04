@@ -24,7 +24,7 @@ body {
     .content{
         height: fit-content;
         max-width: 520px;
-        background-color: rgb(255, 255, 255);
+        background-color: #eeededef;
         border-radius: 10px;
         padding: 25px 25px;
     }
