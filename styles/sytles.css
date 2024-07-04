@@ -74,7 +74,7 @@ label{
 }
 
 
-.form-nome input{
+#form-nome input{
     width: 50%;
     margin-top: 5%;
     height: 100%;
@@ -94,7 +94,7 @@ label{
     .login button{
         width: 50%;
     }
-    .form-nome input{
+    #form-nome input{
         width: 80%;
         padding-right: 5%;
     }
