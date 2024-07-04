@@ -64,13 +64,12 @@ h2{
 
 @media (max-width:740px){
     .content{
-        padding: 2%;
-        height: 72%;
+        height: 115%;
+        margin-top: 30%;
         
     }
     .column{
         display: block;
-        padding-top: 20px; 
     }
     button{
         width: 100%;
