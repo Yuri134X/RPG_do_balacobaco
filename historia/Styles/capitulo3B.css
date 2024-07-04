@@ -67,8 +67,7 @@ h2{
 @media (max-width:740px){
     .content{
         padding: 2%;
-        height: 80%;
-        
+        height: 83%;     
     }
     .column{
         display: block;

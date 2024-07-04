@@ -22,7 +22,7 @@ body {
     
     }
 .content{
-    height: 50%;
+    height:60%;
     max-width: 800px;
     margin: 6px auto;
     padding:70px 70px 70px 70px;
@@ -65,7 +65,7 @@ h2{
 @media (max-width:740px){
     .content{
         padding: 2%;
-        height: 93%;
+        height: 100%;
         
     }
     .column{
@@ -73,7 +73,7 @@ h2{
         padding-top: 20px; 
     }
     button{
-        width: 100%;
+        width: 90%;
         margin: 2%;
     }
 

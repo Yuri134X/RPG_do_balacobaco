@@ -65,6 +65,7 @@ h2{
 @media (max-width:740px){
     .content{
         height: 120%;
+        margin-top: 50%; 
         
     }
     .column{
